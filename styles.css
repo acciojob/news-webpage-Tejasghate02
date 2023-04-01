@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+
+header{
+	background-color: #011e29;
+}
+
+h1{
+	color : white;
+	text-align: center;
+}
+
+.main_container{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+	align-items: flex-start;
+}
+.heading1{
+	width: 200px;
+	text-align: center;
+}
+.heading2{
+	text-align: center;
+}
+.heading3{
+	text-align:center;
+}
+
+.first{
+	border:2px solid green;
+	background-color:white;
+	border-radius: 10px
+}
+.sec{
+	border:2px solid green;
+	background-color:white;
+	border-radius: 10px
+}
+.third{
+	width:300px;
+	border:2px solid green;
+	background-color:white;
+	border-radius: 10px
+}
+.img_container{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+.img{
+	padding:20px;
+}
